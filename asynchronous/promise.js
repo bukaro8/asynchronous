@@ -9,7 +9,7 @@ const users=[
   },
   {
     id:3,
-    name:'nepeno',
+    name:'Nepeno',
   }
 ]
 const emails=[
@@ -43,7 +43,7 @@ const getEmail=(user)=>{
   
 }
 getUser(4)
-      .then(user=> {
-        return getEmail(user)})
+      .then(user=>  getEmail(user))
         .then(res=> console.log(res))
       .catch(err=>console.log(err))
+      
